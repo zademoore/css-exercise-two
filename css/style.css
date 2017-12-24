@@ -1,10 +1,42 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FAF7EE;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.author {
+  font-size: .9em;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+  transition: ease-in-out all .3s;
+}
+
+a:hover {
+  color: rgba(255,255,255,1);
 }
 
 nav {
   background-color: rgba(0,0,0,.5);
+  color: #fff;
   float: left;
   position: fixed;
   width: 100%;
